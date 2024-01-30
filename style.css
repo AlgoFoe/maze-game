@@ -1,0 +1,21 @@
+#mazeCanvas{
+    position: absolute;
+    background-color: rgb(169, 223, 7);
+}
+#mazeCanvas2{
+    position: absolute;
+
+}
+.msgbox{
+    position: absolute;
+    height:180px;
+    width:180px;
+    border-radius: 50%;
+    border:2px solid orange;
+    background-color: rgb(0, 200, 255);
+    z-index: 1;
+    top:4.3%;
+    left:4.3%;
+    text-align: center;
+    visibility:hidden;
+}

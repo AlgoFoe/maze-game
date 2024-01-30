@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="menubar">
+        <button class="startbtn" onclick="clearScreen(),setup(),draw(),addListener(),displayHidden()">Start</button>
+        <button id="btnUp">Up</button>
+        <button id="btnDown">Down</button>
+        <button id="btnRight">Right</button>
+        <button id="btnLeft">Left</button>
+    </div>
+    <div class="content">
+        <div class="msgbox">
+            <h1>You won!</h1>
+            <h2 id="moves">moves</h2>
+            <button id="done" onclick="location.reload()">Done</button>
+        </div>
+        <canvas id="mazeCanvas" height="400px" width="400px"></canvas>
+        <canvas id="mazeCanvas2" height="400px" width="400px"></canvas>
+        
+    </div>
+        <script src="script3.js"></script>
+</body>
+</html>
